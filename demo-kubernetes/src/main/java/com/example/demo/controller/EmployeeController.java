@@ -32,7 +32,7 @@ public class EmployeeController {
 		employeeService.save(employee);
 	}
 	
-	@PostMapping
+	@PutMapping
 	public void updateEmployee(@RequestBody Employee employee) {
 		employeeService.save(employee);
 	}
